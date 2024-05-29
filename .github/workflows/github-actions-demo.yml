@@ -19,11 +19,11 @@ jobs:
     steps:
       #Output the name of the event that triggered the workflow
       - name: Output the name of the event that triggered the workflow
-        run: "The job was triggered by event: ${{ github.event_name }}"
+        run: echo "The job was triggered by event  ${{ github.event_name }}"
      
       #Output the name of the branch that the repository is currently referencing
       - name: Output the name of the branch that the repository is currently referencing
-        run: "The name of your branch is ${{ github.ref }} and your repository is ."
+        run: echo "The name of your branch is ${{ github.ref }} and your repository is ."
 
       - uses: actions/checkout@v3.3.0
 
