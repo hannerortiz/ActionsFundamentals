@@ -1,3 +1,9 @@
+https://github.com/castaoh/ActionsDianGrupo1/issues/1
+https://github.com/castaoh/ActionsDianGrupo1/issues/2
+
+https://crontab.guru/
+https://docs.github.com/es/actions
+
 # GitHub Actions Fundamentals
 
 Repo for the `GitHub Actions Fundamentals` training.
